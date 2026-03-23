@@ -1,0 +1,84 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#091320"/>
+        <stop offset="100%" stop-color="#102840"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#63D4FF" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#63D4FF" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#FFB547" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#FFB547" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#FFB547">07 / BOUNDARIES</text>
+    <text x="88" y="168" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">第四层经验：真正值钱的</text>
+<text x="88" y="230.64" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">是模型、代码、人的职责边界</text>
+    <text x="88" y="298" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C6D6">不要试图让模型负责全部事情，边界不清就不会稳定。</text>
+    <rect x="88" y="326" width="690" height="8" rx="4" fill="url(#warmGrad)"/>
+  
+    <circle cx="800" cy="536" r="160" fill="#FFB547" fill-opacity="0.16"/>
+    <circle cx="612" cy="652" r="164" fill="#9C87FF" fill-opacity="0.18"/>
+    <circle cx="988" cy="652" r="164" fill="#63D4FF" fill-opacity="0.18"/>
+    <circle cx="800" cy="618" r="78" fill="#10233A" stroke="#2E5679" stroke-width="2"/>
+    <text x="800" y="602" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#F8FBFF">稳定</text>
+<text x="800" y="631.76" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#F8FBFF">交付</text>
+
+    <text x="800" y="462" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">人</text>
+    <text x="612" y="694" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">模型</text>
+    <text x="988" y="694" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">代码</text>
+
+    <text x="704" y="400" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">高风险确认 / 歧义拍板 / 验收</text>
+    <text x="448" y="744" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">理解模糊需求 / 多步拆解 / 错误归因</text>
+    <text x="984" y="744" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">白名单校验 / 类型补齐 / 格式清洗 / 调用</text>
+
+    <rect x="88" y="430" width="306" height="162" rx="24" fill="#12263F" fill-opacity="1" stroke="url(#violetGrad)" stroke-width="2"/>
+      <text x="122" y="478" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="900" fill="#9C87FF">交给模型</text>
+      <text x="122" y="532" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">理解模糊需求</text>
+<text x="122" y="561.76" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">拆解复杂逻辑</text>
+<text x="122" y="591.52" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">辅助归因错误</text>
+    
+    <rect x="1206" y="420" width="306" height="188" rx="24" fill="#12263F" fill-opacity="1" stroke="url(#coolGrad)" stroke-width="2"/>
+      <text x="1240" y="478" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="900" fill="#63D4FF">交给代码</text>
+      <text x="1240" y="530" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="850" fill="#F8FBFF">校验边界</text>
+<text x="1240" y="558.16" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="850" fill="#F8FBFF">规则执行</text>
+<text x="1240" y="586.32" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="850" fill="#F8FBFF">修复流水线</text>
+    
+
+    <rect x="478" y="760" width="644" height="60" rx="18" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+      <text x="800" y="799" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#07131F">高风险确认与最终拍板必须保留给人。</text>
+    
+
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲第六部分；NIST AI RMF。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">系统图 / 职责边界</text>
+  
+  
+  </svg>

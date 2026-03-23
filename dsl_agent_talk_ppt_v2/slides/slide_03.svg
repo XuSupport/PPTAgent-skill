@@ -1,0 +1,83 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#0C1521"/>
+        <stop offset="100%" stop-color="#16253C"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#FF7C66" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#FF7C66" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#FFB547" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#FFB547" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#FF7C66">03 / FAILURE MODES</text>
+    <text x="88" y="168" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">为什么直接让大模型生成</text>
+<text x="88" y="230.64" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">几乎一定不够</text>
+    <text x="88" y="298" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C6D6">在真实环境里，错误不是“偏了一点”，而是会让系统直接不可执行。</text>
+    <rect x="88" y="326" width="600" height="8" rx="4" fill="url(#warmGrad)"/>
+  
+    <rect x="88" y="374" width="1424" height="96" rx="24" fill="#131D31" stroke="#4C2F38" stroke-width="2"/>
+    <text x="124" y="432" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" font-weight="900" fill="#F8FBFF">真正的问题不是生成得不够像，而是错误会突破执行边界。</text>
+    <text x="1170" y="432" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#FF7C66">高错误代价</text>
+
+    <rect x="88" y="518" width="332" height="222" rx="24" fill="#162133" fill-opacity="1" stroke="#4C2F38" stroke-width="2"/>
+      <text x="120" y="566" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#FF7C66">RISK 01</text>
+      <text x="120" y="614" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#F8FBFF">旧知识迁移</text>
+      <text x="120" y="662" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">SQL、Python 的习惯</text>
+<text x="120" y="689" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">会被自动带进私有 DSL</text>
+    
+    <rect x="446" y="518" width="332" height="222" rx="24" fill="#162133" fill-opacity="1" stroke="#4C2F38" stroke-width="2"/>
+      <text x="478" y="566" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#FF7C66">RISK 02</text>
+      <text x="478" y="614" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#F8FBFF">确定性要求极高</text>
+      <text x="478" y="662" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">字段、类型、保留字</text>
+<text x="478" y="689" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">任何一项出错都可能失败</text>
+    
+    <rect x="804" y="518" width="332" height="222" rx="24" fill="#162133" fill-opacity="1" stroke="#4C2F38" stroke-width="2"/>
+      <text x="836" y="566" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#FF7C66">RISK 03</text>
+      <text x="836" y="614" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#F8FBFF">单体 Agent 过载</text>
+      <text x="836" y="662" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">理解、规划、生成、修复</text>
+<text x="836" y="689" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">全压一体就会难定位</text>
+    
+    <rect x="1162" y="518" width="350" height="222" rx="24" fill="#162133" fill-opacity="1" stroke="#4C2F38" stroke-width="2"/>
+      <text x="1194" y="566" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#FF7C66">RISK 04</text>
+      <text x="1194" y="614" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="900" fill="#F8FBFF">错误不可拆解</text>
+      <text x="1194" y="662" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">系统看起来很聪明</text>
+<text x="1194" y="689" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="400" fill="#B8C6D6">但交付链路并不稳定</text>
+    
+
+    <rect x="88" y="776" width="1424" height="54" rx="18" fill="#1E2437" stroke="#4C2F38" stroke-width="2"/>
+    <text x="800" y="811" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="900" fill="#FF7C66">只要任务高约束且高代价，单轮直接生成就不是一个可靠策略。</text>
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲第二部分。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">风险页 / 为什么单轮生成不够</text>
+  
+  
+  </svg>

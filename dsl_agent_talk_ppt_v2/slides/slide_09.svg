@@ -1,0 +1,83 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#08131F"/>
+        <stop offset="100%" stop-color="#10273F"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#9C87FF" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#9C87FF" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#63D4FF" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#63D4FF" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#9C87FF">09 / TRANSFERABLE PATTERN</text>
+    <text x="88" y="168" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">第六层经验：这不是 Demo 方法</text>
+<text x="88" y="230.64" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">而是一套可复制范式</text>
+    <text x="88" y="298" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C6D6">只要任务满足“强约束 + 高错误代价 + 可校验产物”，这套方法就能迁移。</text>
+    <rect x="88" y="326" width="720" height="8" rx="4" fill="url(#warmGrad)"/>
+  
+    <rect x="88" y="372" width="940" height="430" rx="30" fill="#0F1D31" stroke="#2E5679" stroke-width="2"/>
+    <line x1="558" y1="404" x2="558" y2="770" stroke="#2E5679" stroke-width="2"/>
+    <line x1="122" y1="588" x2="994" y2="588" stroke="#2E5679" stroke-width="2"/>
+    <text x="516" y="430" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#8EA0B3">高约束</text>
+    <text x="516" y="754" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#8EA0B3">低约束</text>
+    <text x="132" y="578" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#8EA0B3">低错误代价</text>
+    <text x="838" y="578" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#8EA0B3">高错误代价</text>
+    <text x="144" y="450" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">高约束 / 低代价</text>
+    <text x="612" y="450" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">高约束 / 高代价</text>
+    <text x="144" y="628" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">低约束 / 低代价</text>
+    <text x="612" y="628" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">低约束 / 高代价</text>
+
+    <circle cx="338" cy="498" r="14" fill="#63D4FF"/><text x="366" y="505" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#F8FBFF">普通脚本生成</text>
+    <circle cx="744" cy="502" r="14" fill="#FFB547"/><text x="772" y="509" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#F8FBFF">PromQL / 告警规则</text>
+    <circle cx="304" cy="690" r="14" fill="#43E2B6"/><text x="332" y="697" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#F8FBFF">常规问答</text>
+    <circle cx="756" cy="690" r="14" fill="#9C87FF"/><text x="784" y="697" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#F8FBFF">编排 DSL / 安全策略</text>
+    <circle cx="692" cy="550" r="14" fill="#E2E8F0"/><text x="720" y="557" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#F8FBFF">SQL / 类 SQL</text>
+
+    <rect x="1060" y="372" width="452" height="214" rx="24" fill="#12263F" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="1094" y="426" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#FFD58C">迁移条件</text>
+      <text x="1094" y="484" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">字段、类型、结构具有强约束</text>
+<text x="1094" y="515.68" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">结果必须可执行、可校验、可追责</text>
+<text x="1094" y="547.36" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#F8FBFF">错误一旦发生代价足够高</text>
+    
+    <rect x="1060" y="610" width="452" height="192" rx="24" fill="#101D31" fill-opacity="1" stroke="url(#violetGrad)" stroke-width="2"/>
+      <text x="1094" y="662" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#9C87FF">迁移价值</text>
+      <text x="1094" y="724" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">重点不在语言长得像不像</text>
+<text x="1094" y="756.24" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">而在于能否稳定翻译成</text>
+<text x="1094" y="788.48" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#F8FBFF">高确定性、可交付产物</text>
+    
+
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲第八部分。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">矩阵页 / 把个案提升成通用范式</text>
+  
+  
+  </svg>

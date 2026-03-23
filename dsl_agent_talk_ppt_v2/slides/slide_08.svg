@@ -1,0 +1,103 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#08131F"/>
+        <stop offset="100%" stop-color="#12304A"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#43E2B6" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#43E2B6" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#63D4FF" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#63D4FF" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#43E2B6">08 / DELIVERY RATE</text>
+    <text x="88" y="168" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">第五层经验：不要只看首轮命中率</text>
+<text x="88" y="230.64" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">要看闭环交付率</text>
+    <text x="88" y="298" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C6D6">企业真正关心的不是第一次有多漂亮，而是最后能不能交付。</text>
+    <rect x="88" y="326" width="760" height="8" rx="4" fill="url(#warmGrad)"/>
+  
+
+    <rect x="88" y="376" width="310" height="156" rx="24" fill="#12263F" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="122" y="424" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#FFD58C">KPI 01</text>
+      <text x="122" y="478" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="900" fill="#F8FBFF">首轮正确率</text>
+      <text x="122" y="514" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">它重要，但不能代表最终价值。</text>
+    
+    <rect x="420" y="376" width="310" height="156" rx="24" fill="#12263F" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="454" y="424" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#63D4FF">KPI 02</text>
+      <text x="454" y="478" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="900" fill="#F8FBFF">修复成功率</text>
+      <text x="454" y="514" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">衡量系统能否把错误拉回执行区间。</text>
+    
+    <rect x="752" y="376" width="760" height="156" rx="24" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+      <text x="786" y="424" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#07131F">KPI 03</text>
+      <text x="786" y="478" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="42" font-weight="900" fill="#07131F">最终可交付率</text>
+      <text x="786" y="514" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#07131F">企业最终会为这个指标买单，而不是为一次 Demo 命中买单。</text>
+    
+
+    <rect x="88" y="568" width="860" height="236" rx="24" fill="#101D31" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="122" y="616" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">闭环路径</text>
+      
+    <rect x="122" y="658" width="140" height="46" rx="23" fill="#15263B" stroke="#2E5679" stroke-width="2"/>
+    <text x="192" y="689" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">生成</text>
+  
+      <text x="280" y="690" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#FFB547">→</text>
+      
+    <rect x="320" y="658" width="140" height="46" rx="23" fill="#15263B" stroke="#2E5679" stroke-width="2"/>
+    <text x="390" y="689" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">校验</text>
+  
+      <text x="478" y="690" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#FFB547">→</text>
+      
+    <rect x="518" y="658" width="140" height="46" rx="23" fill="#15263B" stroke="#2E5679" stroke-width="2"/>
+    <text x="588" y="689" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">修复</text>
+  
+      <text x="676" y="690" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#FFB547">→</text>
+      
+    <rect x="716" y="658" width="188" height="46" rx="23" fill="#15263B" stroke="#2E5679" stroke-width="2"/>
+    <text x="810" y="689" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">回归验证</text>
+  
+      <path d="M736 646 C690 610 552 606 392 640" stroke="url(#coolGrad)" stroke-width="2.5" fill="none"/>
+      <text x="548" y="614" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="16" font-weight="800" fill="#8EA0B3">失败就回到修复</text>
+      <text x="122" y="756" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">复杂系统里“完全零错”几乎不现实，真正优秀的系统能把局部误差拉回可执行区间。</text>
+    
+
+    <rect x="980" y="568" width="532" height="236" rx="24" fill="#12263F" fill-opacity="1" stroke="#2E5679" stroke-width="2"/>
+      <text x="1014" y="616" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#F8FBFF">评价口径</text>
+      <text x="1014" y="674" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800" fill="#F8FBFF">首轮正确率：看前端表现</text>
+<text x="1014" y="702.56" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800" fill="#F8FBFF">校验通过率：看边界约束是否到位</text>
+<text x="1014" y="731.12" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800" fill="#F8FBFF">修复成功率：看闭环是否成立</text>
+<text x="1014" y="759.6800000000001" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="800" fill="#F8FBFF">人工介入率：看人是否被放在正确位置</text>
+    
+
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲第七部分；Self-Refine。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">看板页 / 企业只为闭环交付率买单</text>
+  
+  
+  </svg>

@@ -1,0 +1,64 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111F"/>
+      <stop offset="100%" stop-color="#0E233A"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF7A18"/>
+      <stop offset="100%" stop-color="#FFD166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <text x="88" y="94" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="700" fill="#F59E0B">OPTION C / NARRATIVE COMPILER</text>
+  <text x="88" y="176" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="68" font-weight="900" fill="#FFFFFF">强约束 DSL</text>
+  <text x="88" y="258" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="62" font-weight="850" fill="#D9E2EC">智能体搭建经验</text>
+  <text x="88" y="320" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C7D9">问题不是“模型会不会写”，而是“系统能不能稳定交付”。</text>
+  <rect x="88" y="352" width="520" height="8" rx="4" fill="url(#accent)"/>
+
+  <rect x="88" y="414" width="546" height="184" rx="28" fill="#11253B" stroke="#1F3A56" stroke-width="2"/>
+  <text x="124" y="468" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#F8B84E">一句话判断</text>
+  <text x="124" y="534" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="850" fill="#FFFFFF">我们不是在做</text>
+  <text x="124" y="580" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="850" fill="#FFFFFF">“懂语法的聊天助手”</text>
+  <text x="124" y="626" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="36" font-weight="850" fill="#FFFFFF">而是在做动态编译系统</text>
+
+  <rect x="88" y="660" width="1416" height="120" rx="24" fill="#0B1A2B" stroke="#1F3A56" stroke-width="2"/>
+  <text x="124" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">编译路径：</text>
+  <text x="266" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">自然语言</text>
+  <text x="396" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#F59E0B">→</text>
+  <text x="440" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">逻辑蓝图</text>
+  <text x="568" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#F59E0B">→</text>
+  <text x="612" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">初版 DSL</text>
+  <text x="730" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#F59E0B">→</text>
+  <text x="774" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">静态规整</text>
+  <text x="914" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#F59E0B">→</text>
+  <text x="958" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">校验与修复</text>
+  <text x="1120" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#F59E0B">→</text>
+  <text x="1164" y="708" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="700" fill="#D9E2EC">最终交付</text>
+  <text x="124" y="744" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="17" fill="#9FB3C8">关键不在“像不像代码”，而在“是否能被真实环境验证和拉回到可执行区间”。</text>
+
+  <rect x="708" y="150" width="360" height="170" rx="24" fill="#11253B" stroke="#1F3A56" stroke-width="2"/>
+  <text x="740" y="196" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">理论 01</text>
+  <text x="740" y="244" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#F8B84E">约束输出</text>
+  <text x="740" y="284" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">让语法有效性尽量靠结构边界，</text>
+  <text x="740" y="312" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">而不是靠模型“自己注意”。</text>
+
+  <rect x="1108" y="150" width="360" height="170" rx="24" fill="#11253B" stroke="#1F3A56" stroke-width="2"/>
+  <text x="1140" y="196" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">理论 02</text>
+  <text x="1140" y="244" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#F8B84E">规划与行动分层</text>
+  <text x="1140" y="284" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">把“画图纸”和“做施工”拆开，</text>
+  <text x="1140" y="312" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">单体 Agent 才不会失稳。</text>
+
+  <rect x="708" y="370" width="360" height="170" rx="24" fill="#11253B" stroke="#1F3A56" stroke-width="2"/>
+  <text x="740" y="416" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF">理论 03</text>
+  <text x="740" y="464" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#F8B84E">自愈闭环</text>
+  <text x="740" y="504" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">真正值钱的是闭环交付率，</text>
+  <text x="740" y="532" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C7D9">不是第一次生成有多像。</text>
+
+  <rect x="1108" y="370" width="360" height="170" rx="24" fill="#F59E0B"/>
+  <text x="1140" y="416" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#0A1525">理论 04</text>
+  <text x="1140" y="464" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="800" fill="#0A1525">治理与 HITL</text>
+  <text x="1140" y="504" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#0A1525">模型做逻辑，代码做规范，</text>
+  <text x="1140" y="532" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#0A1525">人留在高风险决策节点。</text>
+</svg>

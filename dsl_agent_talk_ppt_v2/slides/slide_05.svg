@@ -1,0 +1,95 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#08131E"/>
+        <stop offset="100%" stop-color="#112940"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#63D4FF" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#63D4FF" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#9C87FF" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#9C87FF" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#63D4FF">05 / PIPELINE</text>
+    <text x="88" y="168" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">第二层经验：不要做万能 Agent</text>
+<text x="88" y="230.64" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="58" font-weight="900" fill="#F8FBFF">要做分层流水线</text>
+    <text x="88" y="298" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" fill="#B8C6D6">把复杂问题拆成不同职责的模块，系统才会稳定演进。</text>
+    <rect x="88" y="326" width="620" height="8" rx="4" fill="url(#warmGrad)"/>
+  
+    <rect x="88" y="384" width="1424" height="142" rx="30" fill="#0F1D31" stroke="#2E5679" stroke-width="2"/>
+    
+    <rect x="120" y="430" width="204" height="54" rx="27" fill="#13263F" stroke="#2E5679" stroke-width="2"/>
+    <text x="222" y="465" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">意图降维</text>
+  
+    <text x="344" y="466" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#FFB547">→</text>
+    
+    <rect x="396" y="430" width="204" height="54" rx="27" fill="#13263F" stroke="#2E5679" stroke-width="2"/>
+    <text x="498" y="465" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">逻辑蓝图</text>
+  
+    <text x="620" y="466" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#FFB547">→</text>
+    
+    <rect x="672" y="430" width="204" height="54" rx="27" fill="#13263F" stroke="#2E5679" stroke-width="2"/>
+    <text x="774" y="465" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">语法翻译</text>
+  
+    <text x="896" y="466" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#FFB547">→</text>
+    
+    <rect x="948" y="430" width="204" height="54" rx="27" fill="#13263F" stroke="#2E5679" stroke-width="2"/>
+    <text x="1050" y="465" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">静态整流</text>
+  
+    <text x="1172" y="466" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="30" fill="#FFB547">→</text>
+    
+    <rect x="1224" y="430" width="250" height="54" rx="27" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+    <text x="1349" y="465" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#07131F">动态自愈</text>
+  
+
+    <text x="122" y="560" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" font-weight="800" fill="#8EA0B3">拆分价值</text>
+    <rect x="88" y="590" width="418" height="190" rx="24" fill="#12263F" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="122" y="652" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="850" fill="#F8FBFF">Planner 负责画逻辑图纸</text>
+<text x="122" y="686.16" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="850" fill="#F8FBFF">不直接写 DSL</text>
+      <text x="122" y="746" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">故意把每个模块的职责做窄，系统才会稳定。</text>
+    
+    <rect x="534" y="590" width="418" height="190" rx="24" fill="#12263F" fill-opacity="1" stroke="#234764" stroke-width="2"/>
+      <text x="568" y="652" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="850" fill="#F8FBFF">Engineer 只做确定映射</text>
+<text x="568" y="686.16" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="28" font-weight="850" fill="#F8FBFF">规则和修复回路显式化</text>
+      <text x="568" y="746" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">复杂性通过流程拆解，而不是交给单体智能体硬扛。</text>
+    
+    <rect x="980" y="590" width="524" height="190" rx="24" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+      <text x="1014" y="646" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="900" fill="#07131F">理论锚点</text>
+      <text x="1014" y="700" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#07131F">ReAct：规划与行动分层</text>
+<text x="1014" y="731.2" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="24" font-weight="850" fill="#07131F">Self-Refine：反馈、修复、再验证</text>
+    
+
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲第四部分；ReAct；Self-Refine。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">架构页 / 分层流水线</text>
+  
+  
+  </svg>

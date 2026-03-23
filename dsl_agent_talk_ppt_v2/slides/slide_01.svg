@@ -1,0 +1,97 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0%" stop-color="#07131F"/>
+        <stop offset="100%" stop-color="#0F2438"/>
+      </linearGradient>
+      <linearGradient id="warmGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#FFD58C"/>
+        <stop offset="55%" stop-color="#FFB547"/>
+        <stop offset="100%" stop-color="#FF8A3D"/>
+      </linearGradient>
+      <linearGradient id="coolGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#3AA8FF"/>
+        <stop offset="100%" stop-color="#63D4FF"/>
+      </linearGradient>
+      <linearGradient id="jadeGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#2EC89B"/>
+        <stop offset="100%" stop-color="#43E2B6"/>
+      </linearGradient>
+      <linearGradient id="violetGrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0%" stop-color="#9C87FF"/>
+        <stop offset="100%" stop-color="#C3AEFF"/>
+      </linearGradient>
+      <radialGradient id="glowA" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#63D4FF" stop-opacity="0.18"/>
+        <stop offset="100%" stop-color="#63D4FF" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="glowB" cx="0.5" cy="0.5" r="0.5">
+        <stop offset="0%" stop-color="#FFB547" stop-opacity="0.16"/>
+        <stop offset="100%" stop-color="#FFB547" stop-opacity="0"/>
+      </radialGradient>
+      
+    </defs>
+    <rect width="1600" height="900" fill="url(#bgGrad)"/>
+    <circle cx="1360" cy="180" r="250" fill="url(#glowA)"/>
+    <circle cx="220" cy="790" r="260" fill="url(#glowB)"/>
+    
+    
+    <text x="918" y="252" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="168" font-weight="900" fill="#E9F4FF" fill-opacity="0.07">COMPILER</text>
+    <text x="1024" y="392" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="168" font-weight="900" fill="#E9F4FF" fill-opacity="0.05">SYSTEM</text>
+    <text x="88" y="92" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="20" font-weight="800" fill="#FFB547">01 / POSITIONING</text>
+    <text x="88" y="174" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#F8FBFF">强约束 DSL</text>
+<text x="88" y="248.88" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="72" font-weight="900" fill="#F8FBFF">智能体搭建经验</text>
+    <text x="88" y="342" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" fill="#B8C6D6">问题不是“模型会不会写”，而是“系统能不能稳定交付”。</text>
+    <rect x="88" y="372" width="524" height="8" rx="4" fill="url(#warmGrad)"/>
+
+    <rect x="88" y="438" width="530" height="208" rx="28" fill="#11253D" fill-opacity="1" stroke="#2E5679" stroke-width="2"/>
+      <text x="122" y="494" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#FFD58C">主张</text>
+      <text x="122" y="556" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="850" fill="#F8FBFF">我们不是在做懂语法的聊天助手</text>
+<text x="122" y="596.8" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="850" fill="#F8FBFF">而是在做把自然语言</text>
+<text x="122" y="637.6" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="34" font-weight="850" fill="#F8FBFF">稳定编译成 DSL 的工程系统</text>
+    
+
+    <rect x="1042" y="118" width="370" height="156" rx="26" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+      <text x="1074" y="170" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="21" font-weight="900" fill="#07131F">结论</text>
+      <text x="1074" y="222" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#07131F">首轮像不像不重要</text>
+<text x="1074" y="255.28" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="26" font-weight="900" fill="#07131F">最终能交付才重要</text>
+    
+
+    <path d="M914 316 L914 684" stroke="#2E5679" stroke-width="2.5"/>
+    <path d="M914 390 H1164" stroke="#2E5679" stroke-width="2.5"/>
+    <path d="M914 514 H1164" stroke="#2E5679" stroke-width="2.5"/>
+    <path d="M914 638 H1164" stroke="#2E5679" stroke-width="2.5"/>
+    <circle cx="914" cy="390" r="14" fill="url(#coolGrad)"/>
+    <circle cx="914" cy="514" r="14" fill="url(#violetGrad)"/>
+    <circle cx="914" cy="638" r="14" fill="url(#jadeGrad)"/>
+    <text x="956" y="366" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">约束编排</text>
+    <text x="956" y="398" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">把语法、字段、禁令和流程显式化</text>
+    <text x="956" y="490" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">校验修复</text>
+    <text x="956" y="522" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">把错误拉回可执行区间</text>
+    <text x="956" y="614" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">闭环交付</text>
+    <text x="956" y="646" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="18" fill="#B8C6D6">最终输出可验证、可追责结果</text>
+
+    
+    <rect x="88" y="706" width="316" height="60" rx="30" fill="#11253D" stroke="#2E5679" stroke-width="2"/>
+    <text x="246" y="744" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">自然语言 -&gt; 逻辑蓝图</text>
+  
+    
+    <rect x="424" y="706" width="294" height="60" rx="30" fill="#11253D" stroke="#2E5679" stroke-width="2"/>
+    <text x="571" y="744" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">DSL 翻译 -&gt; 整流</text>
+  
+    
+    <rect x="738" y="706" width="302" height="60" rx="30" fill="#11253D" stroke="#2E5679" stroke-width="2"/>
+    <text x="889" y="744" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#F8FBFF">修复 -&gt; 回归验证</text>
+  
+    
+    <rect x="1060" y="706" width="352" height="60" rx="30" fill="url(#warmGrad)" stroke="url(#warmGrad)" stroke-width="2"/>
+    <text x="1236" y="744" text-anchor="middle" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="22" font-weight="800" fill="#07131F">可交付结果</text>
+  
+
+    
+    <line x1="88" y1="846" x2="1512" y2="846" stroke="#234764" stroke-width="1.5"/>
+    <text x="88" y="872" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">来源：原始大纲；OpenAI Structured Outputs；ReAct；Self-Refine；NIST AI RMF。</text>
+    <text x="1512" y="872" text-anchor="end" font-family="Aptos, PingFang SC, Microsoft YaHei, sans-serif" font-size="12" fill="#8EA0B3">开场 / 动态编译器定位</text>
+  
+  
+  </svg>
