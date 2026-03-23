@@ -1,4 +1,4 @@
-# PPT Agent
+# PPT Agent Skill
 
 使用单个模型按固定工作流制作 PPT，并将每一页先输出为独立 SVG，再通过预览复检逐页打磨，最后生成整套高一致性但不单调的演示文稿。
 
@@ -24,27 +24,27 @@
 
 ### 开场页
 
-![Cover Example](../../dsl_agent_talk_ppt_v2/previews/slide_01.png)
+![Cover Example](dsl_agent_talk_ppt_v2/previews/slide_01.png)
 
 ### 核心判断页
 
-![Core Conclusion Example](../../dsl_agent_talk_ppt_v2/previews/slide_02.png)
+![Core Conclusion Example](dsl_agent_talk_ppt_v2/previews/slide_02.png)
 
 ### 风险页
 
-![Risks Example](../../dsl_agent_talk_ppt_v2/previews/slide_03.png)
+![Risks Example](dsl_agent_talk_ppt_v2/previews/slide_03.png)
 
 ### 系统图页
 
-![System Diagram Example](../../dsl_agent_talk_ppt_v2/previews/slide_07.png)
+![System Diagram Example](dsl_agent_talk_ppt_v2/previews/slide_07.png)
 
 ### 指标看板页
 
-![Dashboard Example](../../dsl_agent_talk_ppt_v2/previews/slide_08.png)
+![Dashboard Example](dsl_agent_talk_ppt_v2/previews/slide_08.png)
 
 ### 矩阵页
 
-![Matrix Example](../../dsl_agent_talk_ppt_v2/previews/slide_09.png)
+![Matrix Example](dsl_agent_talk_ppt_v2/previews/slide_09.png)
 
 ## 核心特点
 

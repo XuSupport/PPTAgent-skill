@@ -1,4 +1,4 @@
-# PPT Agent
+# PPT Agent Skill
 
 Create full presentation decks with a single-model workflow that first produces each slide as SVG, reviews rendered previews, and only then finalizes the deck as a coherent but non-repetitive presentation.
 
@@ -24,27 +24,27 @@ Create full presentation decks with a single-model workflow that first produces 
 
 ### Cover
 
-![Cover Example](../../dsl_agent_talk_ppt_v2/previews/slide_01.png)
+![Cover Example](dsl_agent_talk_ppt_v2/previews/slide_01.png)
 
 ### Core Conclusion
 
-![Core Conclusion Example](../../dsl_agent_talk_ppt_v2/previews/slide_02.png)
+![Core Conclusion Example](dsl_agent_talk_ppt_v2/previews/slide_02.png)
 
 ### Risks
 
-![Risks Example](../../dsl_agent_talk_ppt_v2/previews/slide_03.png)
+![Risks Example](dsl_agent_talk_ppt_v2/previews/slide_03.png)
 
 ### System Diagram
 
-![System Diagram Example](../../dsl_agent_talk_ppt_v2/previews/slide_07.png)
+![System Diagram Example](dsl_agent_talk_ppt_v2/previews/slide_07.png)
 
 ### Dashboard
 
-![Dashboard Example](../../dsl_agent_talk_ppt_v2/previews/slide_08.png)
+![Dashboard Example](dsl_agent_talk_ppt_v2/previews/slide_08.png)
 
 ### Matrix
 
-![Matrix Example](../../dsl_agent_talk_ppt_v2/previews/slide_09.png)
+![Matrix Example](dsl_agent_talk_ppt_v2/previews/slide_09.png)
 
 ## Core Features
 
@@ -230,4 +230,5 @@ Template descriptions:
 The point of `ppt-agent` is not just “automatic layout”.
 
 Its value is turning PPT creation into a reviewable, convergent, reusable production workflow for decks that need both structural clarity and real delivery quality.
+
 # SVGtoPPT-Agent
